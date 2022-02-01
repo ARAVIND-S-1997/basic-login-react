@@ -3,11 +3,9 @@ import Button from '@mui/material/Button';
 import { useState } from 'react';
 import { apiUrl } from './loginPage';
 import axios from 'axios';
-import { useHistory } from 'react-router-dom';
 
 export function ForgetPassword() {
     const [EmailId, setEmailId] = useState([]);
-    const history = useHistory();
     const sendRequest = () => {
         const userEmailId = {
             emailId: EmailId
