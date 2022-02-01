@@ -19,6 +19,7 @@ export function Login() {
         axios({ url: `${apiUrl}/login`, method: "POST", data: loginData })
             .then(() => { history.push("/welcome") })
             .catch()
+    }
     return (
         <div className="loginContentContainer">
             <h1 className="loginTitle">Login</h1>
