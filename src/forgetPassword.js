@@ -14,7 +14,6 @@ export function ForgetPassword() {
         }
         console.log(userEmailId)
         axios({ url: `${apiUrl}/forgetpassword`, method: "POST", data: userEmailId })
-            .then(() => { history.push("/") })
             .catch()
     }
     return (
