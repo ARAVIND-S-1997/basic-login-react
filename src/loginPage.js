@@ -5,7 +5,7 @@ import { useState } from 'react';
 import axios from 'axios';
 
 // heroku link
-export const apiUrl = "https://basic-login-operation.herokuapp.com/user"
+export const apiUrl = "https://basic-login-apps.herokuapp.com//user"
 // export const apiUrl = "http://localhost:9000/user"
 
 
