@@ -6,7 +6,6 @@ import axios from 'axios';
 
 export function ForgetPassword() {
     const [EmailId, setEmailId] = useState([]);
-    console.log(EmailId)
     const sendRequest = () => {
         const userEmailId = {
             emailId: EmailId
