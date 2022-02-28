@@ -18,7 +18,6 @@ export function ChangePassword() {
     return (
         <div className='changePassword'>
             <TextField onChange={(event) => setNewPassword(event.target.value)} className="changePasswordfields" id="outlined-basic" label="New Password" variant="outlined" />
-            {/* <TextField  className="forgetPasswordfields" id="outlined-basic" label="Cofirm Password" variant="outlined" /> */}
             <Button onClick={changePasswordReq} className="changePasswordfields" variant="contained">Submit</Button>
         </div>
     )
